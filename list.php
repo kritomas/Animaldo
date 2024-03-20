@@ -26,6 +26,10 @@ echo '
 		<div class="flex-container">';
 			echoAnimal("Animal 1");
 			echoAnimal("Animal 2");
+			echoAnimal("Animal 3");
+			echoAnimal("Animal 4");
+			echoAnimal("Animal 5");
+			echoAnimal("Animal 6");
 echo
 		'</div>
 	</div>
