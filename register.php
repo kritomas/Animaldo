@@ -2,23 +2,20 @@
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
-		<title>Rotoor</title>
+		<link rel="stylesheet" href="./style.css">
+		<title>Animaldo</title>
 	</head>
 	<body>
-		<form action="handle_register.php" method="post">
-			<ul>
-				<li>
-					<label for="username">Username:</label>
-					<input type="text" id="username" name="username"></input>
-				</li>
-				<li>
-					<label for="password">Password:</label>
-					<input type="password" id="password" name="password"></input>
-				</li>
-				<li>
-					<button type="submit">Submit</button>
-				</li>
-			</ul>
-		</form>
+		<div class="form-div">
+			<form action="handle_register.php" method="post">
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username"></input>
+				<br>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password"></input>
+				<br>
+				<button type="submit">Register</button>
+			</form>
+		</div>
 	</body
 </html>
