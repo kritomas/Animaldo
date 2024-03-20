@@ -38,4 +38,10 @@ p {
 	padding: 20px;
 	margin: 10px;
 	text-align: center;
+	background-color: lightgrey;
+}
+
+img {
+	width: 150px;
+	height: 200px;
 }

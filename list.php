@@ -8,6 +8,8 @@ if (empty($_SESSION["username"]))
 	exit();
 }
 
+require "./flexfunctions.php";
+
 echo '
 <html lang="en" dir="ltr">
 	<head>
@@ -21,14 +23,11 @@ echo '
 
 	echo'
 	<div class="container">
-		<div class="flex-container">
-			<div class = "flex-item">
-				Animal 1
-			</div>
-			<div class = "flex-item">
-				Animal 2
-			</div>
-		</div>
+		<div class="flex-container">';
+			echoAnimal("Animal 1");
+			echoAnimal("Animal 2");
+echo
+		'</div>
 	</div>
 	';
 
