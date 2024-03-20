@@ -8,6 +8,7 @@ echo '
 if (!empty($_SESSION["username"]))
 {
 echo '<a href="list.php">Animal List</a>
+<a href="wants.php">Wanted Animals</a>
 Logged in as <b>' . $_SESSION["username"] . '</b>
 <a href="handle_logout.php">Log Out</a>
 ';
