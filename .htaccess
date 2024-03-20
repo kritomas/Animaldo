@@ -4,6 +4,12 @@ RewriteBase /
 # Do nothing
 RewriteRule ^index\.php$ - [L]
 
+RewriteRule ^home$ /index.php [L]
+RewriteRule ^register$ /register.php [L]
+RewriteRule ^login$ /login.php [L]
+RewriteRule ^animal-list$ /list.php [L]
+RewriteRule ^wanted-animals$ /wants.php [L]
+
 # Redirect if no exist
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

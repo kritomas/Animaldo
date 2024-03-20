@@ -2,13 +2,13 @@
 
 echo '
 <header>
-	<a href="index.php">Home</a>
-	<a href="register.php">Register</a>
-	<a href="login.php">Log In</a>';
+	<a href="home">Home</a>
+	<a href="register">Register</a>
+	<a href="login">Log In</a>';
 if (!empty($_SESSION["username"]))
 {
-echo '<a href="list.php">Animal List</a>
-<a href="wants.php">Wanted Animals</a>
+echo '<a href="animal-list">Animal List</a>
+<a href="wanted-animals">Wanted Animals</a>
 Logged in as <b>' . $_SESSION["username"] . '</b>
 <a href="handle_logout.php">Log Out</a>
 ';
