@@ -46,7 +46,7 @@ class DBC
 
 	public static function createDB()
 	{
-		self::getConnection()->query("create database Usero");
+		self::getConnection()->query("create database Animaldo");
 	}
 	public static function initDB()
 	{
